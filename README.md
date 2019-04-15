@@ -1,3 +1,3 @@
 ## Tools for AWS DeepRacer
 
-* [Waypoint visualizer](./waypoint-reinvent-track.ipynb)
+* [Waypoint visualizer](./waypoints-reinvent-track.ipynb)
