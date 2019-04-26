@@ -13,19 +13,19 @@ Using a filter string below,
 1. find the episodes with high and stable total reward scores
 2. then, find the checkpoint number in the line having "## Loading checkpoint" after those episode.
 
-![drl-cw-log](/Users/muhyun/lab-deepracer/aws-deepracer-tools/images/drl-cw-log.png)
+![drl-cw-log](./images/drl-cw-log.png)
 
 ### Step 1-B: Using csv file in model.tar.gz 
 
 You can do the same by taking a look at csv file found in the downloaded model file from DeepRacer console. The second column indicates the checkpoint number.
 
-![drl-csv](/Users/muhyun/lab-deepracer/aws-deepracer-tools/images/drl-csv.png)
+![drl-csv](./images/drl-csv.png)
 
 ### Step 2 - Download the checkpoint file from S3
 
 Go to Amazon S3 console, and clink on a bucket whose name starts with "aws-deepracer-", and then click on a folder which has the same timestamp as CloudWatch Log stream above. You will see two folders; ip and models. Go to "models" folder, and filter out using "model_" prefix. You will get a screen as below.
 
-![drl-s3-checkpoints](/Users/muhyun/lab-deepracer/aws-deepracer-tools/images/drl-s3-checkpoints.png)
+![drl-s3-checkpoints](./images/drl-s3-checkpoints.png)
 
 The number in the file name is the check point number you find in Step 1. Download one that you want to your local PC.
 
