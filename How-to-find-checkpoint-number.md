@@ -11,7 +11,7 @@ Using a filter string below,
 > ?Training ?"Loading checkpoint"
 
 1. find the episodes with high and stable total reward scores
-2. then, find the checkpoint number in the line having "## Loading checkpoint" after those episode.
+2. then, find the checkpoint number in the line having "## Loading checkpoint" before or after those episode.
 
 ![drl-cw-log](./images/drl-cw-log.png)
 
